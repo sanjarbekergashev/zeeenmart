@@ -1,3 +1,6 @@
+:root {
+  --font: "jost";
+}
 .home_page {
   display: flex;
   flex-direction: column;
@@ -22,7 +25,7 @@
 }
 
 .container .category_top span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -33,7 +36,7 @@
 
 .container .category_top a {
   margin-left: 30px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -151,7 +154,7 @@
 
   color: #fff;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -171,7 +174,7 @@
 
 .container .product_content_box .product_title {
   color: #626974;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -182,7 +185,7 @@
 .container .product_content_box .product_desc {
   height: 56px;
   margin-top: 7px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -203,7 +206,7 @@
 }
 .container .review_box span {
   margin-left: 10px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -220,7 +223,7 @@
 .container .price_box strong {
   color: #041e42;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -229,7 +232,7 @@
 .container .price_box span {
   margin-left: 10px;
   color: #626974;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -277,7 +280,7 @@
   border-radius: 6px;
   background: #f5c34b;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
@@ -290,7 +293,7 @@
   width: 428px;
 
   color: #fff;
-  font-family: "jost";
+  font-family: var(--font);
   font-size: 60px;
   font-style: normal;
   font-weight: 400;
@@ -300,7 +303,7 @@
 .header_frame .header_content p {
   margin-top: 10px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -321,7 +324,7 @@
   background: #fff;
 
   color: #041e42;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -360,7 +363,7 @@
   justify-content: center;
 }
 .header_frame .box_left span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -370,7 +373,7 @@
 
 .header_frame .box_left p {
   margin: 10px 0px;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 26px;
   font-style: normal;
   font-weight: 500;
@@ -379,7 +382,7 @@
 }
 
 .header_frame .box_left a {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -432,7 +435,7 @@
 }
 
 .service_frame .service_content span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -441,7 +444,7 @@
 }
 
 .service_frame .service_content p {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -474,7 +477,7 @@
 }
 
 .shop_category_frame .category_top span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -483,7 +486,7 @@
 }
 
 .shop_category_frame .category_top a {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -531,7 +534,7 @@
   color: #041e42;
   text-align: center;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -588,7 +591,7 @@
   color: #0053f6;
   text-align: center;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -640,7 +643,7 @@
 }
 
 .big_product_content span {
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -651,7 +654,7 @@
 .big_product_content p {
   margin: 7px 0px;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 26px;
   font-style: normal;
   font-weight: 500;
@@ -660,7 +663,7 @@
 }
 
 .big_product_content a {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -704,7 +707,7 @@
   flex-direction: column;
 }
 .small_product_content strong {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -713,7 +716,7 @@
 }
 
 .small_product_content span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -807,7 +810,7 @@
 }
 
 .event_frame .event_content_box .event_title {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -828,7 +831,7 @@
   flex-direction: column;
 }
 .event_frame .timer_box strong {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -836,7 +839,7 @@
   color: #fff;
 }
 .event_frame .timer_box span {
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -857,7 +860,7 @@
   border: 1px solid #fff;
   background: #fff;
   color: #041e42;
-  font-family: Jost;
+  font-family: var(--font);
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
