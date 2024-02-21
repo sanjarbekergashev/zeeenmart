@@ -1,0 +1,562 @@
+.container1 {
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 300px;
+}
+.shopping_card {
+  margin-top: 60px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.shopping_card .top_shop {
+  width: 205px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+}
+.shopping_card .top_shop span {
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: center;
+  font-family: "Jost";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.shopping_card .shop_card_info {
+  margin-top: 60px;
+  width: 305px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shopping_card .shop_card_info p {
+  color: #000;
+  text-align: center;
+
+  /* 15 / Medium */
+  font-family: "Jost";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 146.667% */
+}
+.shopping_card .shop_card_bottom {
+  width: 424px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9px;
+}
+.shop_card_bottom .yellov_line {
+  width: 241px;
+  height: 6px;
+  border-radius: 6px;
+  background: #f5c34b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop_card_bottom .star_img {
+  width: 37px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  border: 2px solid var(--Bg-2, #f5c34b);
+  background: var(--Bg-White, #fff);
+}
+.shop_card_bottom .star_img img {
+  width: 18px;
+  height: 20px;
+  display: flex;
+}
+.shop_card_bottom .line {
+  width: 146px;
+  height: 6px;
+  border-radius: 6px;
+  background: #f3f5f6;
+}
+.card_page {
+  position: relative;
+  width: auto;
+  height: 727px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.card_page .crad_page_manue {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.crad_page_manue .card_page_top {
+  width: 872px;
+  height: 619px;
+  /* margin-left: 150px; */
+  /* margin-top: -40px; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 6px;
+  border: 1px solid var(--Color-Border, #eaeaea);
+  background: var(--Bg-White, #fff);
+}
+
+.card_page_top .top_page {
+  width: 870px;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 6px 6px 0px 0px;
+  background: var(--Bg-4, #f3f5f6);
+}
+.top_page .product {
+  width: 359px;
+  height: 22px;
+  margin-left: 22px;
+}
+.top_page .product span {
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 14 / Medium */
+  font-family: "Jost";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+.top_page .price {
+  width: 50px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+.top_page .price span {
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 14 / Medium */
+  font-family: "Jost";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+.top_page .QUANTITY {
+  margin-left: 75px;
+  width: 71px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+.top_page .QUANTITY span {
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 14 / Medium */
+  font-family: "Jost";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+.top_page .TOTAL {
+  margin-left: 82px;
+  width: 43px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+.top_page .TOTAL span {
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 14 / Medium */
+  font-family: "Jost";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+.top_page .REMOVE {
+  margin-left: 82px;
+  width: 64px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+.top_page .REMOVE span {
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 14 / Medium */
+  font-family: "Jost";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+.card_page .crad_page_manue .card_page_top .page_info {
+  width: 870px;
+  height: 181px;
+  margin-top: 29px;
+
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #eaeaea;
+}
+.page_info .page_info_img {
+  width: 111px;
+  height: 120px;
+  margin-left: 22px;
+
+  display: flex;
+  align-items: center;
+}
+.page_info_img img {
+  width: 93px;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+}
+.page_info .info_title {
+  margin-left: 27px;
+  width: 192px;
+  height: 122px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.info_title .apple {
+  width: 192px;
+  height: 56px;
+}
+.info_title .apple span {
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 16/Regular */
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.info_title .hard {
+  width: 171px;
+  height: 28px;
+  margin: 4px 0px;
+}
+.info_title .hard span {
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 16/Regular */
+  font-family: "Jost";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.info_title .Actual {
+  width: 129px;
+  height: 28px;
+}
+.info_title .Actual span {
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 14 / Medium */
+  font-family: "Jost";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+.page_info .numbur {
+  margin-left: 20px;
+  width: 60px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+.numbur span {
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: right;
+
+  /* 16/Medium */
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+.page_info .remov {
+  margin-left: 60px;
+  width: 102px;
+  height: 42px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 60px;
+  border: 1px solid var(--Color-Border, #eaeaea);
+  background: var(--Bg-White, #fff);
+}
+.remov img {
+  margin-left: 4px;
+  width: 17px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page_info .x {
+  margin-left: 90px;
+}
+.page_info .x img {
+  width: 13px;
+  height: 14px;
+}
+.crad_page_manue .card_page_bottom {
+  width: 880px;
+  height: 55px;
+  margin-top: 30px;
+  /* margin-left: 150px; */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card_page_bottom .coupon {
+  width: 360px;
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border-radius: 6px;
+  border: 1px dashed var(--Color-Text-Light, #626974);
+  background: var(--Bg-White, #fff);
+}
+.coupon p {
+  width: 90px;
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 15 / Regular */
+  font-family: "Jost";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 146.667% */
+}
+.coupon span {
+  width: 98px;
+  color: var(--Color-Text-Dark, #041e42);
+  font-family: "Jost";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 146.667% */
+  text-decoration-line: underline;
+}
+.card_page_bottom .continue {
+  margin-left: 165px;
+  width: 198px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 2px solid var(--Bg-2, #f5c34b);
+
+  /* Button-Shadow */
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+}
+.continue span {
+  width: 128px;
+  height: 22px;
+
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: center;
+
+  /* 15 / Medium */
+  font-family: "Jost";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 146.667% */
+}
+.card_page_bottom .update {
+  width: 150px;
+  height: 52px;
+  margin-left: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 6px;
+  border: 1px solid var(--Bg-2, #f5c34b);
+  background: var(--Bg-2, #f5c34b);
+
+  /* Button-Shadow */
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+}
+.update span {
+  width: 80px;
+  height: 22px;
+
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: center;
+
+  /* 15 / Medium */
+  font-family: "Jost";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 146.667% */
+}
+.card_page .card_total {
+  width: 424px;
+  height: 418px;
+  margin-top: -285px;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #eaeaea;
+  margin-left: 25px;
+}
+.card_total span {
+  margin: 30px 299px 20px 28px;
+  width: 95px;
+  height: 29px;
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 20 / Medium */
+  font-family: "Jost";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card_total .card_total_info {
+  position: relative;
+  width: 366px;
+  height: 232px;
+
+  display: flex;
+  flex-direction: row;
+}
+.card_total_info .total_info {
+  width: 200px;
+  height: 167px;
+  margin-left: 27px;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+.total_info p {
+  color: var(--Color-Text-Dark, #041e42);
+  font-family: "Jost";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 218.75% */
+}
+.card_total_info .total_right {
+  width: 55px;
+  height: 167px;
+  margin-left: 181px;
+
+  display: flex;
+  flex-direction: column;
+}
+.total_right p {
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: right;
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 218.75% */
+}
+.card_total .line {
+  width: 366px;
+  height: 1px;
+  background: #eaeaea;
+  margin-top: -40px;
+  margin-left: 27px;
+}
+
+.card_total .title {
+  margin-top: 10px;
+  width: 424px;
+  height: 25px;
+
+  display: flex;
+  flex-direction: row;
+  margin-left: 27px;
+}
+
+.title p {
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: right;
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px; /* 218.75% */
+}
+.card_total .proceed {
+  margin-left: 27px;
+  margin-top: 30px;
+  width: 365px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 6px;
+  border: 1px solid var(--Bg-2, #f5c34b);
+  background: var(--Bg-2, #f5c34b);
+
+  /* Button-Shadow */
+  box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+}
+.proceed p {
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: center;
+
+  /* 15 / Medium */
+  font-family: "Jost";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 146.667% */
+}
