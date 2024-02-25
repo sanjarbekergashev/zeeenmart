@@ -1,0 +1,224 @@
+.resived_frame {
+  margin-left: 300px;
+  margin-top: 118px;
+  position: relative;
+  width: 1320px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.resived_frame .order_top_bar {
+  width: 437px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.order_top_bar .order_box_icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  background: #443297;
+  border: 1px solid #443297;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  align-items: center;
+}
+
+.order_box_icon img {
+  color: #fff;
+  background-image: #fff;
+  margin-left: 20px;
+  width: 30px;
+  height: 45px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--White, #fff);
+  font-family: "FontAwesome";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+}
+.order_top_bar .top_bar_info {
+  width: 437px;
+  height: 40px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top_bar_info span {
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: center;
+  font-family: "Jost";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.order_top_bar .bottom_bar_info {
+  width: 404px;
+  height: 28px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom_bar_info span {
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: center;
+
+  /* 16/Regular */
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.resived_frame .resived_time_bar {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 1320px;
+  height: 132px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  border-radius: 6px;
+  border: 1px dashed var(--Color-Text-Light, #626974);
+  background: var(--Bg-White, #fff);
+}
+.resived_time_bar .number {
+  width: 145px;
+  height: 63px;
+
+  display: flex;
+  flex-direction: column;
+}
+.number span {
+  width: auto;
+  height: 18px;
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 16/Regular */
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.number p {
+  margin-top: 3px;
+  width: auto;
+  height: 18px;
+
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 16/Medium */
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+
+.resived_frame .resived_info {
+  width: 1320px;
+  height: 511px;
+
+  border: 1px solid #eaeaea;
+
+  display: flex;
+  flex-direction: column;
+}
+.resived_info span {
+  margin-top: 38px;
+  margin-left: 74px;
+  width: 170px;
+  height: 29px;
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 20 / Medium */
+  font-family: "Jost";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.resived_info .info {
+  width: 1170px;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+
+  margin: 18px 74px 30px 74px;
+}
+.info .big_title {
+  width: auto;
+  height: 35px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.big_title span {
+  color: var(--Color-Text-Dark, #041e42);
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px; /* 218.75% */
+}
+
+.big_title p {
+  color: var(--Color-Text-Dark, #041e42);
+  text-align: right;
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px; /* 218.75% */
+}
+.info .under_line {
+  margin: 10px 0px;
+  width: 117opx;
+  height: 1px;
+  background: var(--Color-Border, #eaeaea);
+}
+
+.info .small_title {
+  width: auto;
+  height: 22px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.small_title p {
+  margin-bottom: 15px;
+  color: var(--Color-Text-Dark, #041e42);
+
+  /* 15 / Regular */
+  font-family: "Jost";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 146.667% */
+}
