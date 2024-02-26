@@ -101,6 +101,14 @@
   border: 1px dashed var(--Color-Text-Light, #626974);
   background: var(--Bg-White, #fff);
 }
+
+.resived_time_bar .view {
+  width: 929px;
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .resived_time_bar .number {
   width: 145px;
   height: 63px;
